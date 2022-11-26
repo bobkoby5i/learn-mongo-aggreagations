@@ -79,3 +79,5 @@ reg.coef_
 reg.intercept_
 reg.predict(x_test)
 print(np.mean((reg.predict(x_test) - y_test)**2))
+
+#%%
